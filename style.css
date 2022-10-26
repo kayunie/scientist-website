@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e4e5edc6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#header{
+    background-color: #79aab3;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f3f7f2f3;
+}
+.container{
+    font-size: 20px;
+}
+#nav{
+    list-style: none;
+    display: inline-block;
+    
+}
+#nav li{
+    display: inline;
+    margin-left: 20px;
+}
+#nav li a{
+    color: rgba(9, 0, 0, 0.612);
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    color: #e67a06;
+}
+.grid-top{ 
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap: 12px;
+    margin-top: 7px;
+  
+}
+.body-item img{
+    max-width: 70%;
+    max-height: 100%;
+    border: 3px solid;
+    margin:50px;
+ }
+ .body-item p{ /*for the description*/
+    text-align: justify;
+    font-size: 19.5px;
+    padding-right: 10px;
+ }
+ .body-item li{
+ display: flex;
+ font-size: 19.5px;
+ font-style: italic;
+ }
+
+ .body-item{
+    /* border: 1px solid #6320e8; */
+    background-color:#e4e5edc6;
+    color: #2d0126f3;
+ }
+ .grid-event{ 
+    display:inline-flex;
+    grid-template-columns: auto auto auto;
+    column-gap: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.events{
+    border: 3px groove;
+    background-color: #edf3f4;
+    text-transform: capitalize;
+    color:#08383e;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.subheader{
+    background-color: #c4dde1;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #01192af3;
+}
+
+#articlename{
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.articlevid{
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width:25%;
+  max-height: 25%;
+}
+.sciform{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.back-top{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+.articles{
+    border: 1px solid #95d9e3;
+}
